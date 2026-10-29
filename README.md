@@ -159,6 +159,8 @@ Install whatever else you need: firmware, desktop environment, etc
 
 Set root password, add a user, setup sudo privileges, and whatever else you need to do.
 
+Exit the chroot and unmount the the pseudo filesystems (script does this automatically on exit)
+
 ## Connecting the client
 
 You plug in the client computer and boot PXE
